@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.parentsWidth{
+  width: 100%;
+}
+
+.parentsHeight{
+  height: 100%;
+}
+
+/* .panel{
+  height: 37em;
+} */
+
+/* div a:hover{
+  background-color: black;
+  color: white;
+} */
+
+.card-title{
+  color: black;
+}
+
+.card-text{
+  color: black;
 }
