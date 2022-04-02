@@ -45,14 +45,10 @@
   height: 100%;
 }
 
-/* .panel{
-  height: 37em;
-} */
-
-/* div a:hover{
-  background-color: black;
+.menu:hover{
+  background-color: rgb(152, 158, 235);
   color: white;
-} */
+} 
 
 .card-title{
   color: black;

@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./App.css";
 import { RiLinkedinBoxFill, RiMailLine } from "react-icons/ri";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 
 
 const Samuel = () => {
-    function getAge(dateString) {
-        var ageInMilliseconds = new Date() - new Date(dateString);
-        return (ageInMilliseconds / 1000 / 60 / 60 / 24 / 365); // convert to years
-    }
+
+    const [myAge, setMyAge] = useState();
+    useEffect(() => {
+        setInterval(() => {
+            var ageInMilliseconds = new Date() - new Date('1997-06-22');
+            setMyAge(ageInMilliseconds / 1000 / 60 / 60 / 24 / 365);
+        }, 100)
+    }, []);
+
+
     return (
         <div className="container-fluid" >
             <div className="text-center">
@@ -27,7 +33,7 @@ const Samuel = () => {
                 <p>Lives in: Abuja, Nigeria</p>
             </div>
             <div className="text-center pt-2">
-                <p>Age: {getAge('1997-06-22')} </p>
+                <p>Age: {myAge} </p>
             </div>
             <hr />
             <div className="text-center pt-2 pb-1">

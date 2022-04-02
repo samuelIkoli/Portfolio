@@ -12,11 +12,11 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <div className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <a className="nav-link  active nav-item" href="/">HOME</a>
-                        <a className="nav-link active" href="/about">ABOUT</a>
-                        <a className="nav-link active" href="/projects">PROJECTS</a>
-                        <a className="nav-link active" href="/resume">RESUME</a>
-                        <a className="nav-link active" aria-current="page" href="/contact">CONTACT</a>
+                        <a className="nav-link menu active nav-item" href="/">HOME</a>
+                        <a className="nav-link menu active" href="/about">ABOUT</a>
+                        <a className="nav-link menu active" href="/projects">PROJECTS</a>
+                        <a className="nav-link menu active" href="/resume">RESUME</a>
+                        <a className="nav-link menu active" aria-current="page" href="/contact">CONTACT</a>
                     </div>
                 </div>
             </div>

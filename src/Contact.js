@@ -9,7 +9,7 @@ const Contact = () => {
 
     return (
         <div className="px-auto pt-5 align-items-center d-flex">
-            <div className=" border rounded flex-column container-fluid bg-dark">
+            <div className=" border rounded py-5 flex-column container-fluid bg-dark">
                 <p><RiLinkedinBoxFill /><a href="https://www.linkedin.com/in/samuel-ikoli-584380115/" target="_blank" className="px-3">Linkedin</a></p>
                 <p><FaGithub /> <a href="https://github.com/samuelIkoli" target="_blank" className="px-3">Github</a></p>
                 <p><FaPhone /> <a href="tel:+2347031523145" className="px-3">Phone +234 703 152 3145</a> </p>
@@ -43,7 +43,7 @@ const Contact = () => {
                         <textarea
                             id="message"
                             name="message"
-                            rows="4" cols="50"
+                            rows="4" cols="35"
                         />
                     </div>
                     <ValidationError
