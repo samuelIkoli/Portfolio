@@ -1,24 +1,27 @@
 import React from 'react';
+import Typewriter from "typewriter-effect";
 import './App.css';
-import { FaRegSmileBeam } from "react-icons/fa"
-
 
 
 const Home = () => {
     return (
-        <div className="px-auto pt-5 align-items-center d-flex">
+        <div className="px-auto pt-5 align-items-center courier d-flex">
             <div className="bg-dark border rounded align-items-center container-fluid d-flex">
-                <div className="align-items-center p-5">
-                    <p className="px-2 fs-5">
-                        Welcome to the official portfolio website of Samuel Ikoli. That's me btw. I'm Samuel Ikoli. This website was developed using ReactJS and it is hosted on Firebase. Feel free to navigate around this website and find out more about me.
+                <div className="align-items-center p-md-5 p-sm-1">
+                    <p className="fs-5">
+
                     </p>
-                    {/* <p className="px-2 text-center fs-5">
-                        <FaRegSmileBeam />
-                    </p>
-                    <p className="px-2 text-center fs-5">BTW.... This spinning logo was inspired by React's default app. I just added it because I think it's cool.</p>
-                    <p className="text-center ">
-                        <img src="MyLogo2.png" className="img-fluid  rounded-circle App-logo" alt="" />
-                    </p> */}
+                    <Typewriter
+                        options={{
+                            delay: 20,
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString("Welcome to the official portfolio website of Samuel Ikoli. That's me. I'm Samuel Ikoli. A Bachelor of Engineering, Electrical and Electronics Engineering, with a passion for software development. This website was developed by me using ReactJS and is hosted on Google's Firebase. Feel free to navigate around this website to find out more about me.")
+                                .start()
+
+                        }}
+                    />
                 </div>
 
             </div>

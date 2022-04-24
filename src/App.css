@@ -57,3 +57,27 @@
 .card-text{
   color: black;
 }
+
+.inconsolata{
+  font-family: 'Inconsolata', monospace;
+}
+
+.courier{
+  font-family: 'Courier', monospace;
+}
+
+.comic{
+  font-family: "Comic Sans MS";
+}
+
+.helvetica{
+  font-family: 'Helvetica', sans-serif;
+}
+
+.copper{
+  font-family: 'Copperplate', monospace;
+}
+
+.nodecor{
+  text-decoration: none
+}

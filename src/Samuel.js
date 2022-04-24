@@ -41,15 +41,11 @@ const Samuel = () => {
             </div>
             <hr />
             <div className="text-center d-flex pt-2">
-                <div className="mx-auto"><h2><a href="https://www.linkedin.com/in/samuel-ikoli-584380115/" target="_blank"><RiLinkedinBoxFill /></a></h2></div>
-                <div className="mx-auto"><h2><a href="https://github.com/samuelIkoli" target="_blank"><FaGithub /></a></h2></div>
-                <div className="mx-auto"><h2><a href="https://www.instagram.com/socially.sam/" target="_blank"><FaInstagram /></a></h2></div>
-
+                <div className="mx-auto"><h2><a rel="noreferrer" href="https://www.linkedin.com/in/samuel-ikoli-584380115/" target="_blank"><RiLinkedinBoxFill /></a></h2></div>
+                <div className="mx-auto"><h2><a rel="noreferrer" href="https://github.com/samuelIkoli" target="_blank"><FaGithub /></a></h2></div>
+                <div className="mx-auto"><h2><a rel="noreferrer" href="https://www.instagram.com/socially.sam/" target="_blank"><FaInstagram /></a></h2></div>
             </div>
-
         </div >
-
-
     )
 }
 
