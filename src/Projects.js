@@ -93,6 +93,8 @@ const Projects = () => {
                         <h5 className="card-title">TO-DO APP</h5>
                         <p className="card-text">A simple TODO app made with react, taking advantage of ES6 functions and react hooks as an alternative to classes,constructors and props.</p>
                         <a href="/todo" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">TO DO APP</a>
+                        <br />
+                        <a href="https://github.com/samuelIkoli/Portfolio" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
                     </div>
                 </div>
             </div>
