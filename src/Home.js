@@ -8,9 +8,9 @@ const Home = () => {
         <div className="px-auto pt-5 align-items-center courier d-flex">
             <div className="bg-dark border rounded align-items-center container-fluid d-flex">
                 <div className="align-items-center p-md-5 p-sm-1">
-                    <p className="fs-5">
+                    {/* <p className="fs-5">
 
-                    </p>
+                    </p> */}
                     <Typewriter
                         options={{
                             delay: 20,

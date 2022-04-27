@@ -21,6 +21,8 @@ const Projects = () => {
                     <br />
                     <FaAsterisk />
                     <a href="#unity" className="nodecor me-3">Mobile Game Development </a>
+                    <FaAsterisk />
+                    <a href="#todo" className="nodecor me-3">TO DO APP </a>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="cs50" style={{ width: "18rem" }}>
                     <img src="cs50x.png" className="card-img-top" alt="..." />
@@ -83,6 +85,14 @@ const Projects = () => {
                         <h5 className="card-title">Balloon beach</h5>
                         <p className="card-text">This project is gotten from a course on Udemy. Utilising C# on the Unity game engine. The source code is quite bulky so I will not be  putting a link to it, the builds are quite bulky too; but my certificate of completion can be viewed by following the link below.</p>
                         <a href="Unity.pdf" rel="noreferrer" target="_blank" className="btn btn-primary">View certification</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="todo" style={{ width: "18rem" }}>
+                    <img src="todo.jpg" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">TO-DO APP</h5>
+                        <p className="card-text">A simple TODO app made with react, taking advantage of ES6 functions and react hooks as an alternative to classes,constructors and props.</p>
+                        <a href="/todo" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">TO DO APP</a>
                     </div>
                 </div>
             </div>
