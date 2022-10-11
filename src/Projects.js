@@ -33,7 +33,6 @@ const Projects = () => {
                     <a href="#scraper" className="nodecor me-3">Web Scraper </a>
                     <FaAsterisk />
                     <a href="#calculator" className="nodecor me-3">Simple Calculator</a>
-                    <br />
                     <FaAsterisk />
                     <a href="#Acalculator" className="nodecor me-3">Another Simple Calculator</a>
                 </div>
@@ -141,7 +140,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="Acalculator" style={{ width: "18rem" }}>
-                    <img src="calculator.png" className="card-img-top" alt="..." />
+                    <img src="Acalc.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Simple Calculator</h5>
                         <p className="card-text">I know, I know, it seems similar to the one above but implemented with different technology. Vanilla HTML, CSS and Javascript with DOM manipulation.</p>
