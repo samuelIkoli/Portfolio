@@ -6,7 +6,7 @@ const Resume = () => {
         <div className="px-auto pt-5">
             <div className="px-auto align-items-center d-flex">
                 <div className="bg-dark border rounded py-5 d-flex align-items-centers flex-column container-fluid panel">
-                    <p className=" mx-auto pt-3">Click <a href="Resume.pdf" target="_blank">here</a> to view my Resume</p>
+                    <p className=" mx-auto pt-3">Click <a href="myResume.pdf" target="_blank">here</a> to view my Resume</p>
                     <p className=" mx-auto pt-3">Below is a couple of tools I have worked with and some inaccurate statistics. Mostly based on my experience and time working with each of them.</p>
                     <div className="row mb-1">
                         <div className="col-12 col-lg-6">Language/Framework/Library/Platform</div>

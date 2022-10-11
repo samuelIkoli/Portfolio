@@ -12,17 +12,30 @@ const Projects = () => {
                     <a href="#cs50x" className="nodecor me-3">CS50x </a>
                     <FaAsterisk />
                     <a href="#fcc" className="nodecor me-3">Backend and API certification </a>
+
+                    <FaAsterisk />
+                    <a href="#ctc" className="nodecor me-3">Creative Talent </a>
                     <FaAsterisk />
                     <a href="#yelpcamp" className="nodecor me-3">Yelpcamp </a>
                     <FaAsterisk />
                     <a href="#k9ja" className="nodecor me-3">K9JA </a>
+                    <br />
                     <FaAsterisk />
                     <a href="#bt" className="nodecor me-3">Bluetooth Tracker </a>
-                    <br />
                     <FaAsterisk />
                     <a href="#unity" className="nodecor me-3">Mobile Game Development </a>
                     <FaAsterisk />
                     <a href="#todo" className="nodecor me-3">TO DO APP </a>
+                    <FaAsterisk />
+                    <a href="#mg" className="nodecor me-3">Memory Game </a>
+                    <br />
+                    <FaAsterisk />
+                    <a href="#scraper" className="nodecor me-3">Web Scraper </a>
+                    <FaAsterisk />
+                    <a href="#calculator" className="nodecor me-3">Simple Calculator</a>
+                    <br />
+                    <FaAsterisk />
+                    <a href="#Acalculator" className="nodecor me-3">Another Simple Calculator</a>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="cs50" style={{ width: "18rem" }}>
                     <img src="cs50x.png" className="card-img-top" alt="..." />
@@ -95,6 +108,46 @@ const Projects = () => {
                         <a href="/todo" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">TO DO APP</a>
                         <br />
                         <a href="https://github.com/samuelIkoli/Portfolio" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="mg" style={{ width: "18rem" }}>
+                    <img src="memory.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Memory Game</h5>
+                        <p className="card-text">A simple and classic game that takes advantage of react hooks like useState and useEffect.</p>
+                        <a href="/memory_game" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Memory Game</a>
+                        <br />
+                        <a href="https://github.com/samuelIkoli/Portfolio" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="scraper" style={{ width: "18rem" }}>
+                    <img src="scraper.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Web Scraper</h5>
+                        <p className="card-text">A web scraper that extracts the Title, Type, Description and Image from a website. On the front-end is html, embedded Javascript and bootstrap's CSS; on the back-end is Express running on Node.JS. The scraping functionality is derived from using axios to make HTTP requests, then using cheerio to Parse the incoming HTML response and extracting the required metadata.</p>
+                        <a href="https://the-web-scraper.herokuapp.com/" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Web Scraper</a>
+                        <br />
+                        <a href="https://github.com/samuelIkoli/Portfolio" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="calculator" style={{ width: "18rem" }}>
+                    <img src="calculator.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Simple Calculator</h5>
+                        <p className="card-text">A simple calculator made with react, using simple function components and the useState hook.</p>
+                        <a href="/calculator" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Calculator</a>
+                        <br />
+                        <a href="https://github.com/samuelIkoli/Portfolio" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="Acalculator" style={{ width: "18rem" }}>
+                    <img src="calculator.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Simple Calculator</h5>
+                        <p className="card-text">I know, I know, it seems similar to the one above but implemented with different technology. Vanilla HTML, CSS and Javascript with DOM manipulation.</p>
+                        <a href="https://the-web-scraper.herokuapp.com/calc" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Calculator</a>
+                        <br />
+                        <a href="https://github.com/samuelIkoli/Web_scraper/blob/master/views/calculator.ejs" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
                     </div>
                 </div>
             </div>

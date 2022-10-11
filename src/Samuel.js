@@ -10,7 +10,7 @@ const Samuel = () => {
     useEffect(() => {
         setInterval(() => {
             var ageInMilliseconds = new Date() - new Date('1997-06-22');
-            setMyAge(ageInMilliseconds / 1000 / 60 / 60 / 24 / 365);
+            setMyAge((ageInMilliseconds / 1000 / 60 / 60 / 24 / 365).toFixed(15));
         }, 100)
     }, []);
 
