@@ -54,7 +54,7 @@ const Projects = () => {
                         <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to original course</a>
                     </div>
                 </div>
-                <div className="card mx-auto mt-3 mb-5" id="ct" style={{ width: "18rem" }}>
+                <div className="card mx-auto mt-3 mb-5" id="ctc" style={{ width: "18rem" }}>
                     <img src="ctc.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Creative Talent Cooperative</h5>
@@ -143,7 +143,7 @@ const Projects = () => {
                     <img src="Acalc.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Simple Calculator</h5>
-                        <p className="card-text">I know, I know, it seems similar to the one above but implemented with different technology. Vanilla HTML, CSS and Javascript with DOM manipulation.</p>
+                        <p className="card-text">I know, I know, it seems similar to the one above. The major difference is that, this is implemented with different technology. Vanilla HTML, CSS and Javascript with DOM manipulation.</p>
                         <a href="https://the-web-scraper.herokuapp.com/calc" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Calculator</a>
                         <br />
                         <a href="https://github.com/samuelIkoli/Web_scraper/blob/master/views/calculator.ejs" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
