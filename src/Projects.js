@@ -7,12 +7,14 @@ const Projects = () => {
         <div className="px-auto pt-5 align-items-center d-flex">
             <div className="bg-dark border rounded d-flex text-center flex-column container-fluid">
                 <p className="mx-auto pt-5 h3 copper">A few projects I have worked on.</p>
+                <p className="mx-auto pt-5 copper">A few sites for personal projects may be down as hosting on heroku is no longer free, please bear with me as I migrate from Heroku.</p>
                 <div>
+                    <FaAsterisk />
+                    <a href="#buzz" className="nodecor me-3">Buzz </a>
                     <FaAsterisk />
                     <a href="#cs50x" className="nodecor me-3">CS50x </a>
                     <FaAsterisk />
                     <a href="#fcc" className="nodecor me-3">Backend and API certification </a>
-
                     <FaAsterisk />
                     <a href="#ctc" className="nodecor me-3">Creative Talent </a>
                     <FaAsterisk />
@@ -36,7 +38,15 @@ const Projects = () => {
                     <FaAsterisk />
                     <a href="#Acalculator" className="nodecor me-3">Another Simple Calculator</a>
                 </div>
-                <div className="card mx-auto mt-3 mb-5" id="cs50" style={{ width: "18rem" }}>
+                <div className="card mx-auto mt-3 mb-5" id="buzz" style={{ width: "18rem" }}>
+                    <img src="buzz.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Buzz</h5>
+                        <p className="card-text">Buzz is a mobile application fo a start-up that serves as a social media platforms for artists and other event organisers to sell and promote their events, sell tickets and manage them. I served as tech-lead for this project. On the front-end we have react native for cross-platform build, on the backend we have express, running on NodeJS connected to a mySQL database hosted with AWS as well as firebase used for media storage.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.protegelabs.buzz" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">See on Play Store</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="cs50x" style={{ width: "18rem" }}>
                     <img src="cs50x.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">CS50x</h5>
@@ -59,7 +69,7 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Creative Talent Cooperative</h5>
                         <p className="card-text">Creative Talent is a Cooperative based in Abuja, Nigeria. I was contracted as a full stack web developer to set up and manage their website and it's functionalities. Using technology like Wordpress, Plesk, Woocommerce and Flutterwave.</p>
-                        <a href="https://creativetalent.coop/" rel="noreferrer" className="btn btn-primary" target="_blank" >Visit Site</a>
+                        <a href="https://creativetalent.coop/" rel="noreferrer" className="btn btn-primary" target="_blank" >Site down :-(</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="yelpcamp" style={{ width: "18rem" }}>
