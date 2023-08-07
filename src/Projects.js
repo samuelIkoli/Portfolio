@@ -42,8 +42,10 @@ const Projects = () => {
                     <img src="buzz.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Buzz</h5>
-                        <p className="card-text">Buzz is a mobile application fo a start-up that serves as a social media platforms for artists and other event organisers to sell and promote their events, sell tickets and manage them. I served as tech-lead for this project. On the front-end we have react native for cross-platform build, on the backend we have express, running on NodeJS connected to a mySQL database hosted with AWS as well as firebase used for media storage.</p>
+                        <p className="card-text">Buzz is a mobile application for a start-up that serves as a social media platform for artists and other event organisers to sell and promote their events as well as manage them. I served as tech-lead for this project. On the front-end we have react native for cross-platform build, on the backend we have express, running on NodeJS connected to a mySQL database hosted with AWS as well as firebase used for media storage.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.protegelabs.buzz" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">See on Play Store</a>
+                        <br />
+                        <a href="https://www.youtube.com/watch?v=TnROL-8Qm0k" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">See Video</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="cs50x" style={{ width: "18rem" }}>
@@ -77,7 +79,7 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Yelpcamp</h5>
                         <p className="card-text">Almost like the actual website Yelp which enables users to sign up and review businesses before publishimg them, Yelpcamp on the other hand is based on this idea and tailored towards camps. This project was a requirement for the completion of a certified course taken on Udemy. The complete web development bootcamp by Colt Steele. On the frontend of the website is raw HTML , Javascript and Bootstrap's CSS using EJS as the view engine. On the backend is Node.js utilising express. Some other node packages were installed to aid and contribute various functionalities that where needed. MongoDB is used in the backend with Mongoose as the ODM. Photos that get uploaded are stored in Cloudinary. The website is hosted on Heroku.</p>
-                        <a href="https://fierce-cliffs-76480.herokuapp.com/" rel="noreferrer" className="btn btn-primary" target="_blank" >Visit Site</a>
+                        <a href="https://yelpcamp-ruddy.vercel.app/" rel="noreferrer" className="btn btn-primary" target="_blank" >Visit Site</a>
                         <br />
                         <a href="https://github.com/samuelIkoli/Yelpcamp" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
                         <br />
@@ -89,7 +91,7 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">K-9JA</h5>
                         <p className="card-text">A website to advertise the sales of the dogs I breed. On the front end HTML , Javascript and Bootstrap's CSS with EJS as the view engine. On the backend is Node.js and the express library. Instead of multiple HTML pages for the show pages for the different dogs, a single page was used fetching the appropriate data to render depending on the respective show page being viewed. Hosted on Heroku.</p>
-                        <a href="https://canecorsos.herokuapp.com/" rel="noreferrer" target="_blank" className="btn btn-primary">Visit Site</a>
+                        <a href="https://k-9-ja.vercel.app/" rel="noreferrer" target="_blank" className="btn btn-primary">Visit Site</a>
                         <br />
                         <a href="https://github.com/samuelIkoli/K-9JA" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
                     </div>
@@ -134,9 +136,9 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Web Scraper</h5>
                         <p className="card-text">A web scraper that extracts the Title, Type, Description and Image from a website. On the front-end is html, embedded Javascript and bootstrap's CSS; on the back-end is Express running on Node.JS. The scraping functionality is derived from using axios to make HTTP requests, then using cheerio to Parse the incoming HTML response and extracting the required metadata.</p>
-                        <a href="https://the-web-scraper.herokuapp.com/" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Web Scraper</a>
+                        <a href="https://web-scraper-coral-sigma.vercel.app/" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Web Scraper</a>
                         <br />
-                        <a href="https://github.com/samuelIkoli/Portfolio" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                        <a href="https://github.com/samuelIkoli/Web_scraper" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="calculator" style={{ width: "18rem" }}>
@@ -154,7 +156,7 @@ const Projects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Simple Calculator</h5>
                         <p className="card-text">I know, I know, it seems similar to the one above. The major difference is that, this is implemented with different technology. Vanilla HTML, CSS and Javascript with DOM manipulation.</p>
-                        <a href="https://the-web-scraper.herokuapp.com/calc" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Calculator</a>
+                        <a href="https://web-scraper-coral-sigma.vercel.app/calc" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Calculator</a>
                         <br />
                         <a href="https://github.com/samuelIkoli/Web_scraper/blob/master/views/calculator.ejs" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
                     </div>
