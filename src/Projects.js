@@ -45,6 +45,8 @@ const Projects = () => {
                         <p className="card-text">Buzz is a mobile application for a start-up that serves as a social media platform for artists and other event organisers to sell and promote their events as well as manage them. I served as tech-lead for this project. On the front-end we have react native for cross-platform build, on the backend we have express, running on NodeJS connected to a mySQL database hosted with AWS as well as firebase used for media storage.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.protegelabs.buzz" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">See on Play Store</a>
                         <br />
+                        <a href="https://apps.apple.com/ng/app/buzz-ng/id6455226192" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">See on App Store</a>
+                        <br />
                         <a href="https://www.youtube.com/watch?v=TnROL-8Qm0k" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">See Video</a>
                     </div>
                 </div>
