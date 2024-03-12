@@ -6,13 +6,13 @@ import { FaGithub, FaInstagram } from "react-icons/fa";
 
 const Samuel = () => {
 
-    const [myAge, setMyAge] = useState();
-    useEffect(() => {
-        setInterval(() => {
-            var ageInMilliseconds = Date.now() - new Date('1997-06-22');
-            setMyAge((ageInMilliseconds / 1000 / 60 / 60 / 24 / 365.25).toFixed(15));
-        }, 100)
-    }, []);
+    // const [myAge, setMyAge] = useState();
+    // useEffect(() => {
+    //     setInterval(() => {
+    //         var ageInMilliseconds = Date.now() - new Date('1997-06-22');
+    //         setMyAge((ageInMilliseconds / 1000 / 60 / 60 / 24 / 365.25).toFixed(15));
+    //     }, 100)
+    // }, []);
 
 
     return (
@@ -32,9 +32,9 @@ const Samuel = () => {
             <div className="text-center pt-2">
                 <p>Lives in: Abuja, Nigeria</p>
             </div>
-            <div className="text-center pt-2">
+            {/* <div className="text-center pt-2">
                 <p>Age: {myAge} </p>
-            </div>
+            </div> */}
             <hr />
             <div className="text-center pt-2 pb-1">
                 <p><span className="mx-2"><RiMailLine /></span> ayibanimiikoli@gmail.com</p>

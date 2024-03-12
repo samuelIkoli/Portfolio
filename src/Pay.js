@@ -54,6 +54,7 @@ function Pay() {
             <div className=" border rounded py-5 flex-column container-fluid bg-dark">
 
                 <form>
+                    <p>Secured and Powered by Paystack</p>
                     <div className="col-12 col-lg-6">
                         <label htmlFor="user_email">
                             Email Address

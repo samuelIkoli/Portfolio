@@ -54,7 +54,8 @@ function Donate() {
             <div className=" border rounded py-5 flex-column container-fluid bg-dark">
 
                 <form>
-                    <div className="col-12 col-lg-6">
+                    <p>Secured and Powered by Paystack</p>
+                    <div className="col-12 col-lg-6 pt-3">
                         <label htmlFor="user_email">
                             Email Address
                         </label>
