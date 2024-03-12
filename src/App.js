@@ -9,6 +9,8 @@ import Projects from './Projects';
 import ToDo from './todo';
 import Memory from './memory';
 import Calculator from './Calculator';
+import Donate from './Donate';
+import Pay from './Pay';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/todo" element={<ToDo />} />
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/memory_game" element={<Memory />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/pay" element={<Pay />} />
         </Routes>
       </Router>
     </div>

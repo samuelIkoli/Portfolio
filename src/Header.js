@@ -17,6 +17,7 @@ const Header = () => {
                         <a className="nav-link menu active" href="/projects">PROJECTS</a>
                         <a className="nav-link menu active" href="/resume">RESUME</a>
                         <a className="nav-link menu active" aria-current="page" href="/contact">CONTACT</a>
+                        <a className="nav-link menu active" href="/donate">DONATE</a>
                     </div>
                 </div>
             </div>
