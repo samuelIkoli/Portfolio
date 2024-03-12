@@ -7,23 +7,26 @@ const Projects = () => {
         <div className="px-auto pt-5 align-items-center d-flex">
             <div className="bg-dark border rounded d-flex text-center flex-column container-fluid">
                 <p className="mx-auto pt-5 h3 copper">A few projects I have worked on.</p>
-                <p className="mx-auto pt-5 copper">A few sites for personal projects may be down as hosting on heroku is no longer free, please bear with me as I migrate from Heroku.</p>
+                <br />
                 <div>
+                    <FaAsterisk />
+                    <a href="#stream" className="nodecor me-3">StreamAndSave </a>
+                    <FaAsterisk />
+                    <a href="#pip" className="nodecor me-3">Pip Calculator </a>
                     <FaAsterisk />
                     <a href="#buzz" className="nodecor me-3">Buzz </a>
                     <FaAsterisk />
                     <a href="#cs50x" className="nodecor me-3">CS50x </a>
                     <FaAsterisk />
-                    <a href="#fcc" className="nodecor me-3">Backend and API certification </a>
+                    <a href="#fcc" className="nodecor me-3">Backend and API certification </a><br />
                     <FaAsterisk />
                     <a href="#ctc" className="nodecor me-3">Creative Talent </a>
                     <FaAsterisk />
                     <a href="#yelpcamp" className="nodecor me-3">Yelpcamp </a>
                     <FaAsterisk />
                     <a href="#k9ja" className="nodecor me-3">K9JA </a>
-                    <br />
                     <FaAsterisk />
-                    <a href="#bt" className="nodecor me-3">Bluetooth Tracker </a>
+                    <a href="#bt" className="nodecor me-3">Bluetooth Tracker </a><br />
                     <FaAsterisk />
                     <a href="#unity" className="nodecor me-3">Mobile Game Development </a>
                     <FaAsterisk />
@@ -37,6 +40,26 @@ const Projects = () => {
                     <a href="#calculator" className="nodecor me-3">Simple Calculator</a>
                     <FaAsterisk />
                     <a href="#Acalculator" className="nodecor me-3">Another Simple Calculator</a>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="stream" style={{ width: "18rem" }}>
+                    <img src="sas.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Stream and Save</h5>
+                        <p className="card-text">Endpoint to stream a video to download it on local storage. Using NodeJS's default file system module to receive chunks of data encoded in base64 and then saving to local storage to using Rabbit MQ's queuing services and Deepgram to queue and transcribe the videos in order.</p>
+                        <a href="https://github.com/samuelIkoli/streamAndSave" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                        <br />
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="pip" style={{ width: "18rem" }}>
+                    <img src="pip.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Pip Calculator</h5>
+                        <p className="card-text">A P.I.P. (Percentage In Point) calculator for traders to determine the value of a pip movement in their local currency.</p>
+                        <a href="https://github.com/samuelIkoli/pipcalculator" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to Repository</a>
+                        <br />
+                        <a href="https://pipcalculator.vercel.app/" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Pip Calculator</a>
+                        <br />
+                    </div>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="buzz" style={{ width: "18rem" }}>
                     <img src="buzz.png" className="card-img-top" alt="..." />
