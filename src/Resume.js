@@ -41,6 +41,15 @@ const Resume = () => {
                         <hr />
                     </div>
                     <div className="row">
+                        <div className="col-12 col-lg-6">Typescript</div>
+                        <div className="col-12 col-lg-6">
+                            <div className="progress mb-3">
+                                <div className="progress-bar bg-success" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                    <div className="row">
                         <div className="col-12 col-lg-6">Bootstrap</div>
                         <div className="col-12 col-lg-6">
                             <div className="progress mb-3">
