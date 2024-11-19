@@ -10,9 +10,13 @@ const Projects = () => {
                 <br />
                 <div>
                     <FaAsterisk />
+                    <a href="#os" className="nodecor me-3">Open Source </a>
+                    <FaAsterisk />
+                    <a href="#a2" className="nodecor me-3">Auth n 2FA </a>
+                    <FaAsterisk />
                     <a href="#stream" className="nodecor me-3">StreamAndSave </a>
                     <FaAsterisk />
-                    <a href="#pip" className="nodecor me-3">Pip Calculator </a>
+                    <a href="#pip" className="nodecor me-3">Pip Calculator </a><br/>
                     <FaAsterisk />
                     <a href="#buzz" className="nodecor me-3">Buzz </a>
                     <FaAsterisk />
@@ -40,6 +44,28 @@ const Projects = () => {
                     <a href="#calculator" className="nodecor me-3">Simple Calculator</a>
                     <FaAsterisk />
                     <a href="#Acalculator" className="nodecor me-3">Another Simple Calculator</a>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="os" style={{ width: "18rem" }}>
+                    <img src="auth-n-2fa.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Open Source Contribution</h5>
+                        <p className="card-text">I have contributed, or at least made PR's to a number of open source projects. Green Software to track CO2 emiission as an effect of powering the internet in your region or byte transmission from your website. An OMR checker which can be calibrated to scan and mark different OMR sheets and can even be downloaded on mobile to take screenshots rather than traditional scanning.</p>
+                        <a href="https://github.com/github/GreenSoftwareDirectory" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">GreenSoftwareDirectory</a>
+                        <a href="https://github.com/thegreenwebfoundation/co2.js" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">CO2.JS</a>
+                        <a href="https://github.com/Udayraj123/OMRChecker" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">OMR Checker</a>
+                        <a href="https://github.com/souravjain540/Basic-Python-Programs" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Basic-Python-Programs</a>
+                        <br />
+                    </div>
+                </div>
+                <div className="card mx-auto mt-3 mb-5" id="a2" style={{ width: "18rem" }}>
+                    <img src="auth-n-2fa.png" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Auth n 2FA</h5>
+                        <p className="card-text">Authentication service with two factor authentication using speakeasy on the backend for the time based two-fa service, using the qrcode node package to convert the information to a scanable qr code compatible with mobile authentication apps like google authenticator. MySQL as a databse with knexJS as an ORM to store user information, utilizing bcrypt to hash user password. React on the frontend.</p>
+                        <a href="https://github.com/samuelIkoli/auth_n_2fa" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to BE Repository</a>
+                        <a href="https://github.com/samuelIkoli/reactauth" rel="noreferrer" target="_blank" className="btn mt-2 btn-primary">Link to FE Repository</a>
+                        <br />
+                    </div>
                 </div>
                 <div className="card mx-auto mt-3 mb-5" id="stream" style={{ width: "18rem" }}>
                     <img src="sas.png" className="card-img-top" alt="..." />

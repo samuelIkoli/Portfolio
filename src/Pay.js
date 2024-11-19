@@ -48,7 +48,6 @@ function Pay() {
             </div>
         );
     };
-    const initializePayment = usePaystackPayment(config);
     return (
         <div className="px-auto pt-5 align-items-center d-flex">
             <div className=" border rounded py-5 flex-column container-fluid bg-dark">

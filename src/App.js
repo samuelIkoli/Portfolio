@@ -11,6 +11,7 @@ import Memory from './memory';
 import Calculator from './Calculator';
 import Donate from './Donate';
 import Pay from './Pay';
+import Greenboard from './Greenboard';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/memory_game" element={<Memory />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/pay" element={<Pay />} />
+          <Route path="/green" element={<Greenboard />} />
         </Routes>
       </Router>
     </div>
